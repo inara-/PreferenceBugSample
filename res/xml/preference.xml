@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen android:title="メニュー2" >
+         <intent
+            android:action="android.intent.action.VIEW"
+            android:data="preferences://preference2"
+            android:targetClass="jp.inara.sample.preferencebug.MyPreferenceActivity"
+            android:targetPackage="jp.inara.sample.preferencebug" />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

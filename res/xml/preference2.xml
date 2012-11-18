@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:key="chk1"
+        android:title="チェック1" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:key="chk2"
+        android:title="チェック2" />
+
+</PreferenceScreen>
